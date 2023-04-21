@@ -19,6 +19,10 @@
 	background-color: var(--primary);
 }
 
+.primary svg {
+	fill: var(--white);
+}
+
 .primary:hover {
 	background-color: var(--primary-hover);
 }
@@ -33,6 +37,12 @@
 	color: var(--white);
 	background-color: var(--primary);
 }
+
+.ghost:hover svg {
+	fill: var(--white);
+}
+
+
 
 .arrow {
 	display: inline-block;
